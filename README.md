@@ -29,4 +29,5 @@ _(Agregá capturas de pantalla si querés mostrar visualmente la app)_
 1. Clonar el repositorio:
 
 ```bash
-git clone https://github.com/tu-usuario/ecommerce-app.git
+git clone https://github.com/emilianocabrera90/ProyectoFinal-Cabrera.git
+```
