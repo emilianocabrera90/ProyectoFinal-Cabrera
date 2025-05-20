@@ -1,0 +1,96 @@
+.item-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.item-card:hover {
+  box-shadow: 0 4px 12px rgb(0 0 0 / 0.15);
+}
+
+.item-card img {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.item-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+  text-align: center;
+  color: #222;
+}
+
+.item-card p {
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.btn-add-to-cart {
+  margin-top: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  font-weight: 600;
+}
+
+.btn-add-to-cart:hover {
+  background-color: #218838;
+}
+
+.btn-detail {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #007bff;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn-detail:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para ItemDetail */
+
+.item-detail {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.item-detail img {
+  margin: 20px 0;
+  border-radius: 6px;
+  max-width: 100%;
+  height: auto;
+}
+
+.item-detail p {
+  font-size: 1.1rem;
+  margin: 10px 0;
+  color: #444;
+}
