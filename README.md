@@ -1,12 +1,32 @@
-# React + Vite
+# 🛍️ E-commerce App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web de e-commerce desarrollada como entrega final de un curso. Permite explorar productos, ver detalles, agregarlos al carrito y simular una compra. Usa React para el frontend y Firebase para la base de datos.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologías
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚛️ React (con Vite)
+- 🛠️ JavaScript
+- 🔥 Firebase (Firestore)
+- 📦 CSS Modules
+- 🧠 Context API
 
-## Expanding the ESLint configuration
+## ✨ Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Ver listado de productos por categoría
+- Ver detalle individual de un producto
+- Agregar productos al carrito (sumar/restar cantidad)
+- Ver el contenido del carrito
+- Eliminar productos individualmente o vaciar el carrito
+- Finalizar compra con formulario de checkout
+- Confirmación de orden y guardado en Firestore
+
+## 📸 Capturas
+
+_(Agregá capturas de pantalla si querés mostrar visualmente la app)_
+
+## ⚙️ Instalación y uso
+
+1. Clonar el repositorio:
+
+```bash
+git clone https://github.com/tu-usuario/ecommerce-app.git
